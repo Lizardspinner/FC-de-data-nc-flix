@@ -49,7 +49,7 @@ VALUES
 ('Verity','1997-01-07', 'Leicester', null),
 ('Cat','1985-11-02', 'Manchester',29),
 ('Alex','2001-06-24', 'Manchester', 1045),
-('Duncan', '1994-01-19', 'Manchester', 99),
+('Danika', '1994-01-19', 'Manchester', 99),
 ('Vel', '1989-05-01', 'Leeds', 14),
 ('Liam', '1993-10-03', 'Leeds', null),
 ('Jim', '1989-05-01', 'Leeds', 14),
