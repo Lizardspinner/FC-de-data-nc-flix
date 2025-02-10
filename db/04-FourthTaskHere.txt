@@ -1,4 +1,4 @@
-You are now connected to database "nc_flix" as user "vald".
+You are now connected to database "nc_flix" as user "fionac".
  location  
 -----------
  Leicester
@@ -17,8 +17,8 @@ You are now connected to database "nc_flix" as user "vald".
  Manchester
 (7 rows)
 
- store_id | stock_count 
-----------+-------------
-        2 |          11
+ store_location | store_id | most_abundant_genre 
+----------------+----------+---------------------
+ Manchester     |        2 | comedy
 (1 row)
 

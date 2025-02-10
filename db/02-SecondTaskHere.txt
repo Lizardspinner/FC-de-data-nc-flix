@@ -1,4 +1,4 @@
-You are now connected to database "nc_flix" as user "vald".
+You are now connected to database "nc_flix" as user "fionac".
         avg         
 --------------------
  7.0000000000000000

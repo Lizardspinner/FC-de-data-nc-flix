@@ -1,4 +1,4 @@
-You are now connected to database "nc_flix" as user "vald".
+You are now connected to database "nc_flix" as user "fionac".
  movie_id |               title                | release_date | rating | cost | classification 
 ----------+------------------------------------+--------------+--------+------+----------------
         3 | Todo Sobre Mi Madre                | 2015-08-15   |      5 | 1.25 | 12

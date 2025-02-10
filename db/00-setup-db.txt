@@ -1,6 +1,6 @@
 DROP DATABASE
 CREATE DATABASE
-You are now connected to database "nc_flix" as user "vald".
+You are now connected to database "nc_flix" as user "fionac".
 CREATE TABLE
 CREATE TABLE
 CREATE TABLE
