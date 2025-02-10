@@ -1,0 +1,36 @@
+You are now connected to database "nc_flix" as user "vald".
+ count | genre_name 
+-------+------------
+     4 | fantasy
+     7 | drama
+     8 | action
+     5 | crime
+     4 | family
+     3 | romance
+     9 | comedy
+     6 | sci_fi
+(8 rows)
+
+     avg_rating     |   city    
+--------------------+-----------
+ 6.6000000000000000 | Newcastle
+(1 row)
+
+ movie_id |             title              | release_date | rating | cost | classification 
+----------+--------------------------------+--------------+--------+------+----------------
+       14 | Episode I - The Phantom Menace | 1999-05-19   |      7 | 1.43 | 
+       22 | Toy Story                      | 1995-11-19   |     10 | 1.43 | U
+       23 | Groundhog Day                  | 1993-02-12   |      7 | 1.43 | U
+       25 | Independance Day               | 1996-07-03   |      7 | 0.95 | 15
+(4 rows)
+
+ max 
+-----
+  10
+(1 row)
+
+ count 
+-------
+    10
+(1 row)
+

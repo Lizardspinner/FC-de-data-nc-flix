@@ -1,0 +1,24 @@
+You are now connected to database "nc_flix" as user "vald".
+ location  
+-----------
+ Leicester
+ Bolton
+ Liverpool
+(3 rows)
+
+  location  
+------------
+ Leeds
+ Newcastle
+ Bolton
+ Birmingham
+ Leicester
+ Liverpool
+ Manchester
+(7 rows)
+
+ store_id | stock_count 
+----------+-------------
+        2 |          11
+(1 row)
+
