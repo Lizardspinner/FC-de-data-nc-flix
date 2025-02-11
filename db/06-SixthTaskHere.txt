@@ -1,17 +1,17 @@
 You are now connected to database "nc_flix" as user "fionac".
- customer_id | customer_name | date_of_birth |  location  | loyalty_points 
--------------+---------------+---------------+------------+----------------
-           1 | David         | 1992-12-30    | Leeds      |            202
-           2 | Joe           | 1989-06-21    | Liverpool  |             13
-           3 | Verity        | 1997-01-07    | Leicester  |               
-           4 | Cat           | 1985-11-02    | Manchester |             29
-           5 | Alex          | 2001-06-24    | Manchester |           1045
-           6 | Danika        | 1994-01-19    | Manchester |             99
-           7 | Vel           | 1989-05-01    | Leeds      |             14
-           8 | Liam          | 1993-10-03    | Leeds      |               
-           9 | Jim           | 1989-05-01    | Leeds      |             14
-          10 | Paul C        | 1991-03-28    | Bolton     |            198
-          11 | Haz           | 1992-07-02    | Bolton     |               
+ customer_id | customer_name | date_of_birth |  location  | loyalty_points | age 
+-------------+---------------+---------------+------------+----------------+-----
+           1 | David         | 1992-12-30    | Leeds      |            202 |  32
+           2 | Joe           | 1989-06-21    | Liverpool  |             13 |  35
+           3 | Verity        | 1997-01-07    | Leicester  |                |  28
+           4 | Cat           | 1985-11-02    | Manchester |             29 |  39
+           5 | Alex          | 2001-06-24    | Manchester |           1045 |  23
+           6 | Danika        | 1994-01-19    | Manchester |             99 |  31
+           7 | Vel           | 1989-05-01    | Leeds      |             14 |  35
+           8 | Liam          | 1993-10-03    | Leeds      |                |  31
+           9 | Jim           | 1989-05-01    | Leeds      |             14 |  35
+          10 | Paul C        | 1991-03-28    | Bolton     |            198 |  33
+          11 | Haz           | 1992-07-02    | Bolton     |                |  32
 (11 rows)
 
 ALTER TABLE

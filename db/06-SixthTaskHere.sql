@@ -1,20 +1,5 @@
 \c nc_flix
--- Create an output to display the information on our customers. It should include:
--- name
--- location
--- loyalty membership status (see below)
--- # Loyalty membership tiers
-
--- - 'doesn't even go here' - 0 points
--- - 'bronze status' - < 10 points
--- - 'silver status' - 10 - 100 points
--- - 'gold status' - > 100 points
--- We can assume if the customer has no point information, 
---they have yet to receive any loyalty points.
-
-
 SELECT * FROM customers;
-
 
 ALTER TABLE customers ADD COLUMN IF NOT EXISTS age INTEGER;
 UPDATE customers 
