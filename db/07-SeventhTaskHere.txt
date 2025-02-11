@@ -1,0 +1,89 @@
+You are now connected to database "nc_flix" as user "fionac".
+CREATE TABLE
+ stock_id |               title                | classification | movie_id | is_age_appropriate | is_in_birmingham | rented_under_5 
+----------+------------------------------------+----------------+----------+--------------------+------------------+----------------
+        1 | Toy Story                          | U              |       22 | yes                | no               | yes
+        2 | Toy Story                          | U              |       22 | yes                | no               | no
+        3 | Pulp Fiction                       |                |       21 |                    | no               | yes
+        4 | Highlander                         | 15             |        7 | no                 | no               | no
+        5 | Highlander                         | 15             |        7 | no                 | no               | no
+        6 | Highlander                         | 15             |        7 | no                 | no               | no
+        7 | Episode IV - A New Hope            | 12             |       15 | no                 | yes              | yes
+        8 | Episode IV - A New Hope            | 12             |       15 | no                 | yes              | no
+        9 | Episode IX - The Rise of Skywalker | 15             |       16 | no                 | yes              | no
+       10 | Episode IX - The Rise of Skywalker | 15             |       16 | no                 | yes              | no
+       11 | Toy Story                          | U              |       22 | yes                | no               | no
+       12 | Back to the Future                 | U              |       17 | yes                | no               | no
+       13 | Back to the Future                 | U              |       17 | yes                | no               | no
+       14 | Back to the Future Part II         | U              |       18 | yes                | yes              | no
+       15 | Back to the Future Part II         | U              |       18 | yes                | yes              | no
+       16 | Catch Me If You Can                | 15             |        9 | no                 | no               | no
+       17 | Catch Me If You Can                | 15             |        9 | no                 | no               | no
+       18 | Catch Me If You Can                | 15             |        9 | no                 | no               | no
+       19 | Catch Me If You Can                | 15             |        9 | no                 | no               | no
+       20 | Taxi Driver                        | 15             |       10 | no                 | no               | no
+       21 | Taxi Driver                        | 15             |       10 | no                 | no               | no
+       22 | Girl, Interrupted                  | 12             |       12 | no                 | no               | no
+       23 | Pulp Fiction                       |                |       21 |                    | no               | no
+       24 | Pulp Fiction                       |                |       21 |                    | no               | no
+       25 | Pulp Fiction                       |                |       21 |                    | no               | no
+       26 | The Care Bears Movie               |                |        5 |                    | no               | no
+       27 | Episode I - The Phantom Menace     |                |       14 |                    | yes              | no
+       28 | Episode I - The Phantom Menace     |                |       14 |                    | yes              | no
+       29 | Episode I - The Phantom Menace     |                |       14 |                    | yes              | no
+       30 | Episode I - The Phantom Menace     |                |       14 |                    | yes              | no
+       31 | Episode I - The Phantom Menace     |                |       14 |                    | yes              | no
+       32 | Episode I - The Phantom Menace     |                |       14 |                    | yes              | no
+       33 | Episode IV - A New Hope            | 12             |       15 | no                 | yes              | no
+       34 | Episode IV - A New Hope            | 12             |       15 | no                 | yes              | no
+       35 | Episode IX - The Rise of Skywalker | 15             |       16 | no                 | yes              | no
+       36 | Back to the Future Part II         | U              |       18 | yes                | yes              | no
+(36 rows)
+
+ movie_id | stock_id 
+----------+----------
+       22 |        1
+       22 |        2
+       21 |        3
+        7 |        4
+        7 |        5
+        7 |        6
+       15 |        7
+       15 |        8
+       16 |        9
+       16 |       10
+       22 |       11
+       17 |       12
+       17 |       13
+       18 |       14
+       18 |       15
+        9 |       16
+        9 |       17
+        9 |       18
+        9 |       19
+       10 |       20
+       10 |       21
+       12 |       22
+       21 |       23
+       21 |       24
+       21 |       25
+        5 |       26
+       14 |       27
+       14 |       28
+       14 |       29
+       14 |       30
+       14 |       31
+       14 |       32
+       15 |       33
+       15 |       34
+       16 |       35
+       18 |       36
+(36 rows)
+
+ movie_id | stock_id 
+----------+----------
+       22 |        1
+       21 |        3
+       15 |        7
+(3 rows)
+
