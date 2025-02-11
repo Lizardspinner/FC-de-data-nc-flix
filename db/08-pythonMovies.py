@@ -1,11 +1,17 @@
 import pg8000.native
+import os
+from dotenv import load_dotenv
 
-conn = pg8000.native.Connection(user="postgres", database = "nc_flix",
-                                password = "password")
+load_dotenv()
+
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_NAME = os.getenv("DB_NAME")
+
+conn = pg8000.native.Connection(user=DB_USER, database=DB_NAME,
+                                password=DB_PASSWORD)
 
 def select_movies(sort_by=None, order="ASC",min_rating=None,location=None):
-    #use type hinting to allow only certain args? and currently order has to 
-    #be in "", sort_by in ''
     order_by = "ORDER BY title"
     rating_check = ""
 
@@ -17,7 +23,6 @@ def select_movies(sort_by=None, order="ASC",min_rating=None,location=None):
 
     elif sort_by == 'rating':
         order_by = "ORDER BY rating"
-    #^how to deal with empty rating field? currently gets sorted to top
 
     elif sort_by == 'cost':
         order_by = "ORDER BY cost"
